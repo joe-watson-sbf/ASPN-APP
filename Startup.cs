@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ASPNPlatzi.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -24,6 +25,11 @@ namespace ASPNPlatzi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            /*
+            services.AdddBContext<EscuelaContext>(
+                options => options.UseInMemoryDataBase(databasename:"testDB")
+            );
+            */
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

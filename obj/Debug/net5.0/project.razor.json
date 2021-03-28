@@ -15603,6 +15603,11 @@
   "RootNamespace": "ASPNPlatzi",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\usuario.307\\Desktop\\ASPNPlatzi\\Views\\Alumno\\MultiAlumno.cshtml",
+      "TargetPath": "Views\\Alumno\\MultiAlumno.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\usuario.307\\Desktop\\ASPNPlatzi\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15620,6 +15625,11 @@
     {
       "FilePath": "c:\\Users\\usuario.307\\Desktop\\ASPNPlatzi\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\usuario.307\\Desktop\\ASPNPlatzi\\Views\\Shared\\ObjetoEscuelaSimple.cshtml",
+      "TargetPath": "Views\\Shared\\ObjetoEscuelaSimple.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15653,13 +15663,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\usuario.307\\Desktop\\ASPNPlatzi\\Views\\Shared\\AsignaturaSimple.cshtml",
-      "TargetPath": "Views\\Shared\\AsignaturaSimple.cshtml",
+      "FilePath": "c:\\Users\\usuario.307\\Desktop\\ASPNPlatzi\\Views\\Alumno\\Index.cshtml",
+      "TargetPath": "Views\\Alumno\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "c:\\Users\\usuario.307\\Desktop\\ASPNPlatzi\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\usuario.307\\Desktop\\ASPNPlatzi\\Views\\Shared\\ListaObjetoEscuela.cshtml",
+      "TargetPath": "Views\\Shared\\ListaObjetoEscuela.cshtml",
       "FileKind": "mvc"
     }
   ],

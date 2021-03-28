@@ -11,9 +11,9 @@ namespace ASPNPlatzi.Controllers
         {
             ViewBag.Information = "Klas sa enpòtan anpil pou devlòpman WEB";
             ViewBag.Fecha = DateTime.Now;
-            return View("Index",new Asignatura{Nombre = "Programacion Orientado a Objeto", UniqueId = Guid.NewGuid().ToString()});
+            return View(new Asignatura{Nombre = "Programacion Orientado a Objeto", UniqueId = Guid.NewGuid().ToString()});
         }
-        public IActionResult MultiAsignaturas()
+        public IActionResult MultiAsignatura()
         {
             var asignatura = new Asignatura();
             asignatura.Nombre = "Programacion Orientado a Objeto";
