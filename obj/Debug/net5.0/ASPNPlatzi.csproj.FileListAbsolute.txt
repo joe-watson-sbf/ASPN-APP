@@ -40,3 +40,6 @@ C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\ASPNPlatzi.genruntimeco
 C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\ASPNPlatzi.csproj.CopyComplete
 C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\Razor\Views\Escuela\Index.cshtml.g.cs
 C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\Razor\Views\Shared\Simple.cshtml.g.cs
+C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\Razor\Views\Asignatura\Index.cshtml.g.cs
+C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\Razor\Views\Shared\AsignaturaSimple.cshtml.g.cs
+C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\Razor\Views\Asignatura\MultiAsignatura.cshtml.g.cs
