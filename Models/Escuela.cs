@@ -1,12 +1,11 @@
 using System;
 using System.Collections.Generic;
-using CoreEscuela.Util;
 
-namespace CoreEscuela.Entidades
+namespace ASPNPlatzi.Models
 {
-    public class Escuela:ObjetoEscuelaBase, ILugar
+    public class Escuela:ObjetoEscuelaBase
     {
-        public int AñoDeCreación { get; set; }
+        public int AnoDeCreacion { get; set; }
 
         public string Pais { get; set; }
         public string Ciudad { get; set; }
@@ -16,15 +15,18 @@ namespace CoreEscuela.Entidades
         public TiposEscuela TipoEscuela { get; set; }
         public List<Curso> Cursos { get; set; }
 
-        public Escuela(string nombre, int año) => (Nombre, AñoDeCreación) = (nombre, año);
+        public Escuela(string nombre, int año) => (Nombre, AnoDeCreacion) = (nombre, año);
 
         public Escuela(string nombre, int año, 
                        TiposEscuela tipo, 
                        string pais = "", string ciudad = "") : base()
         {
-            (Nombre, AñoDeCreación) = (nombre, año);
+            (Nombre, AnoDeCreacion) = (nombre, año);
             Pais = pais;
             Ciudad = ciudad;
+        }
+        public Escuela(){
+            
         }
 
         public override string ToString()
@@ -32,19 +34,6 @@ namespace CoreEscuela.Entidades
             return $"Nombre: \"{Nombre}\", Tipo: {TipoEscuela} {System.Environment.NewLine} Pais: {Pais}, Ciudad:{Ciudad}";
         }
 
-        public void LimpiarLugar()
-        {
-             
-            Printer.DrawLine();
-            Console.WriteLine("Limpiando Escuela..");
-            
-            foreach (var curso in Cursos)
-            {
-                curso.LimpiarLugar();
-            }
-            
-            Printer.WriteTitle($"Escuela {Nombre} Limpia");
-            Printer.Beep(1000, cantidad:3);
-        }
+       
     }
 }

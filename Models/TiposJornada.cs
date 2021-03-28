@@ -1,4 +1,4 @@
-namespace CoreEscuela.Entidades
+namespace ASPNPlatzi.Models
 {
     public enum TiposJornada
     {

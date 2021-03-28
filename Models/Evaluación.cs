@@ -1,6 +1,6 @@
 using System;
 
-namespace CoreEscuela.Entidades
+namespace ASPNPlatzi.Models
 {
     public class Evaluación:ObjetoEscuelaBase
     {

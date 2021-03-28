@@ -1,15 +1,15 @@
 using System;
 
-namespace CoreEscuela.Entidades
+namespace ASPNPlatzi.Models
 {
     public abstract class ObjetoEscuelaBase
     {
-        public string UniqueId { get; private set; }
+        public string UniqueId { get; set; }
         public string Nombre { get; set; }
 
         public ObjetoEscuelaBase()
         {
-            UniqueId = Guid.NewGuid().ToString();
+            
         }
 
         public override string ToString()
