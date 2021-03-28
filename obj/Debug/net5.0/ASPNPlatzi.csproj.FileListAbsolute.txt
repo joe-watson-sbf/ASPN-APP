@@ -38,3 +38,5 @@ C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\ref\ASPNPlatzi.dll
 C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\ASPNPlatzi.pdb
 C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\ASPNPlatzi.genruntimeconfig.cache
 C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\ASPNPlatzi.csproj.CopyComplete
+C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\Razor\Views\Escuela\Index.cshtml.g.cs
+C:\Users\usuario.307\Desktop\ASPNPlatzi\obj\Debug\net5.0\Razor\Views\Shared\Simple.cshtml.g.cs

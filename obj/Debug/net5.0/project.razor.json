@@ -15608,8 +15608,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\usuario.307\\Desktop\\ASPNPlatzi\\Views\\Escuela\\Index.cshtml",
+      "TargetPath": "Views\\Escuela\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\usuario.307\\Desktop\\ASPNPlatzi\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\usuario.307\\Desktop\\ASPNPlatzi\\Views\\Shared\\Simple.cshtml",
+      "TargetPath": "Views\\Shared\\Simple.cshtml",
       "FileKind": "mvc"
     },
     {
